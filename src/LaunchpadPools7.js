@@ -12,6 +12,10 @@ export default function LaunchpadPools7() {
   const handleChange = (value) => {
     setData(value);
   };
+  function goldench() {
+    let element = document.getElementsById("newclick");
+    element.style.backgroundColor = this.state.isClicked ? "red" : "white";
+  }
 
   return (
     <>
@@ -38,9 +42,10 @@ export default function LaunchpadPools7() {
                   <input
                     type="radio"
                     className="fl-right"
-                    id="Standard"
+                    id="Standard newclick"
                     name="Presale"
                     value="Standard"
+                    onClick={goldench}
                     onChange={(e) => {
                       handleChange(e.target.value);
                     }}
@@ -58,6 +63,7 @@ export default function LaunchpadPools7() {
                     id="Fairlaunch"
                     name="Presale"
                     value="Fairlaunch"
+                    onClick={goldench}
                     onChange={(e) => {
                       handleChange(e.target.value);
                     }}
@@ -75,6 +81,7 @@ export default function LaunchpadPools7() {
                     id="Private"
                     name="Presale"
                     value="Private"
+                    onClick={goldench}
                     onChange={(e) => {
                       handleChange(e.target.value);
                     }}

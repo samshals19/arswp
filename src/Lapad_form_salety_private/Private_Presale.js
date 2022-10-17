@@ -46,7 +46,7 @@ export default function Presale() {
               <input
                 type="text"
                 // placeholder="Describe about your project"
-                value="200"
+                value="2000"
               />
               <img src="/img/RIP.png" alt="" />
             </div>

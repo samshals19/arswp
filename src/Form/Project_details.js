@@ -71,6 +71,7 @@ function PersonalInfo({ formData, setFormData }) {
                   type="text"
                   placeholder="Describe about your project"
                   value={formData.Description}
+                  name="describe_about_your_project"
                   onChange={(event) =>
                     setFormData({
                       ...formData,
@@ -94,7 +95,8 @@ function PersonalInfo({ formData, setFormData }) {
                 <input
                   type="text"
                   // placeholder="Describe about your project"
-                  value="Payment,Web3."
+                  placeholder="Payment,Web3."
+                  name="tags"
                   onChange={(event) =>
                     setFormData({
                       ...formData,
@@ -129,7 +131,8 @@ function PersonalInfo({ formData, setFormData }) {
               <input
                 type="text"
                 // placeholder="Describe about your project"
-                value="https://bscscan.com/"
+                placeholder="https://bscscan.com/"
+                name="website"
                 onChange={(event) =>
                   setFormData({
                     ...formData,
@@ -153,7 +156,8 @@ function PersonalInfo({ formData, setFormData }) {
               <input
                 type="text"
                 // placeholder="Describe about your project"
-                value="https://bscscan.com/"
+                placeholder="https://bscscan.com/"
+                name="twitter"
                 onChange={(event) =>
                   setFormData({
                     ...formData,
@@ -164,17 +168,6 @@ function PersonalInfo({ formData, setFormData }) {
               <img src="/img/Twit_logo.png" alt="" />
             </div>
           </div>
-          {/* <div className="clear">
-            <div className="button_form_section  fl-right">
-              <button>Next</button>
-            </div>
-            <div className="fl-right go_next">
-              <button>
-                <img src="/img/Arrow - Right.png" alt="" />
-                Go back
-              </button>
-            </div>
-          </div> */}
         </div>
       </div>
     </>

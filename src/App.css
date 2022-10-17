@@ -2881,12 +2881,16 @@ transition: transform .3s;
   color: #00783F;
 }
 
+/* .bg-border-change{
+  border: red;
+  color: blue;
+} */
 .mainly  .form-block{
   /* margin-left: 10%;
     width: 88%;
     transition: .5s; */
 }
-
+.main .sidebar_contain_aside{display:none}
 .mainly{
     transition: .5s;
 }

@@ -92,7 +92,11 @@ function SignUpInfo({ formData, setFormData }) {
             </div>
             <div className="page1_section_form_no_amt fl-left ">
               <div className="page1_section_form_part1 fl-left">
-                <input type="text" placeholder="14,774,566" />
+                <input
+                  type="text"
+                  placeholder="14,774,566"
+                  name="amount_to_be_locked"
+                />
               </div>
               <div className="page1_section_form_part2 fl-right">SXP</div>
             </div>

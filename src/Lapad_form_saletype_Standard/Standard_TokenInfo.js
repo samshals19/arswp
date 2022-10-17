@@ -25,6 +25,7 @@ function SignUpInfo({ formData, setFormData }) {
                   <input
                     type="text"
                     placeholder="Address"
+                    name="address"
                     value={formData.password}
                     onChange={(event) =>
                       setFormData({ ...formData, password: event.target.value })

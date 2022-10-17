@@ -45,7 +45,9 @@ export default function Presale() {
               <input
                 type="text"
                 // placeholder="Describe about your project"
-                value="200"
+                // value="200"
+                placeholder="200"
+                name="presale_rate"
               />
               {/* <img src="/img/Tel_logo.png" alt="" /> */}
               <span className="sp_val">SXP</span>
@@ -64,7 +66,8 @@ export default function Presale() {
               <input
                 type="text"
                 // placeholder="Describe about your project"
-                value="200"
+                placeholder="200"
+                name="soft_cap"
               />
               <img src="/img/RIP.png" alt="" />
             </div>
@@ -79,11 +82,7 @@ export default function Presale() {
             </p>
 
             <div class="inputvaluearea_top_rightform_block_1 clear">
-              <input
-                type="text"
-                // placeholder="Describe about your project"
-                value="1000"
-              />
+              <input type="text" placeholder="200" name="hard_cap" />
               <img src="/img/RIP.png" alt="" />
             </div>
           </div>
@@ -97,11 +96,7 @@ export default function Presale() {
             </p>
 
             <div class="inputvaluearea_top_rightform_block_1 clear">
-              <input
-                type="text"
-                // placeholder="Describe about your project"
-                value="10"
-              />
+              <input type="text" placeholder="10" name="min_allocation" />
               <img src="/img/RIP.png" alt="" />
             </div>
           </div>
@@ -118,7 +113,9 @@ export default function Presale() {
               <input
                 type="text"
                 // placeholder="Describe about your project"
-                value="100"
+
+                placeholder="100"
+                name="max_allocation"
               />
               <img src="/img/RIP.png" alt="" />
             </div>
@@ -181,7 +178,9 @@ export default function Presale() {
                 <input
                   type="text"
                   // placeholder="Describe about your project"
-                  value="70"
+
+                  placeholder="70"
+                  name="amount_for_liquidity"
                 />
                 <span className="sp_val">%</span>
               </div>
@@ -199,7 +198,9 @@ export default function Presale() {
                 <input
                   type="text"
                   // placeholder="Describe about your project"
-                  value="300"
+
+                  placeholder="300"
+                  name="listing_rate"
                 />
                 <span className="sp_val">SXP</span>
               </div>
@@ -229,7 +230,7 @@ export default function Presale() {
                   <input
                     type="datetime-local"
                     id="birthdaytime_locker"
-                    name="birthdaytime"
+                    name="starton"
                   />
                 </form>
               </div>
@@ -248,7 +249,7 @@ export default function Presale() {
                   <input
                     type="datetime-local"
                     id="birthdaytime_locker"
-                    name="birthdaytime"
+                    name="endon"
                   />
                 </form>
               </div>
@@ -274,11 +275,7 @@ export default function Presale() {
               </p>
 
               <div class="inputvaluearea_top_rightform_block_1 clear">
-                <input
-                  type="text"
-                  // placeholder="Describe about your project"
-                  value="Burn"
-                />
+                <input type="text" placeholder="Burn" name="unsold_tokens" />
                 <span className="sp_val">%</span>
               </div>
             </div>
@@ -292,11 +289,7 @@ export default function Presale() {
               </p>
 
               <div class="inputvaluearea_top_rightform_block_1 clear">
-                <input
-                  type="text"
-                  // placeholder="Describe about your project"
-                  value="300"
-                />
+                <input type="text" placeholder="300" name="liquidity_lockup" />
               </div>
             </div>
           </div>

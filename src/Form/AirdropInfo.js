@@ -51,6 +51,7 @@ function SignUpInfo({ formData, setFormData }) {
                   <input
                     type="text"
                     placeholder="Address"
+                    name="address"
                     value={formData.password}
                     onChange={(event) =>
                       setFormData({ ...formData, password: event.target.value })
@@ -110,7 +111,11 @@ function SignUpInfo({ formData, setFormData }) {
             </div>
             <div className="page1_section_form_no_amt fl-left ">
               <div className="page1_section_form_part1 fl-left">
-                <input type="text" placeholder="14,774,566" />
+                <input
+                  type="text"
+                  placeholder="14,774,566"
+                  name="amount_to_be_airdropped"
+                />
               </div>
               <div className="page1_section_form_part2 fl-right">SXP</div>
             </div>
