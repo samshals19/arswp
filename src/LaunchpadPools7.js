@@ -12,9 +12,13 @@ export default function LaunchpadPools7() {
   const handleChange = (value) => {
     setData(value);
   };
+  const [isClicked, setIsClicked] = useState(false);
   function goldench() {
     let element = document.getElementsById("newclick");
-    element.style.backgroundColor = this.state.isClicked ? "red" : "white";
+    setIsClicked(true);
+    element.style.backgroundColor = this.state.isClicked
+      ? "lappadpoolactive"
+      : "white";
   }
 
   return (

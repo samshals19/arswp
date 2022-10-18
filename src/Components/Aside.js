@@ -158,9 +158,9 @@ export default function Aside() {
                     <div class="sidebar_contain_aside">
                       <Link to="/Lockertab">Locked Assets</Link>
 
-                      <Link to="/Createsalelocker">Token Locker</Link>
+                      <Link to="/TokenLocker">Token Locker</Link>
 
-                      <Link to="/Createsalelocker/LPLocker">LP Locker</Link>
+                      <Link to="/LPLocker">LP Locker</Link>
                     </div>
                   </div>
                   <div
@@ -189,7 +189,7 @@ export default function Aside() {
                     <div class="sidebar_contain_aside">
                       <Link to="/live">Airdrops</Link>
 
-                      <Link to="/airdropform1">Create Airdrop</Link>
+                      <Link to="/CreateAirdrop">Create Airdrop</Link>
                     </div>
                   </div>
                   <div
