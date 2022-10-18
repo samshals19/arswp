@@ -233,7 +233,7 @@ color: #C89211;
   background: #fdf8ef;
  
   border-radius: 0px 0px 30px 30px;
-  padding: 13px 19px;
+  padding: 14px 19px;
 }
 .w3-container{
   width:25%
@@ -330,12 +330,18 @@ button{ cursor: pointer;}
     -moz-appearance: none;
     text-indent: 1px;
     text-overflow: '';
-    background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADoSURBVHgB7ZG/DsFQFIfPuZUIk4QHEBIhDBKDxGbQTcLQhEfoaPFSJAyWpmm8gklMrcFgkdhEpD1OWdBLWvP9htv03HO/3/0DoFAoUFbUdaNFhJVIMwYFADJ5VSYqwqVlzSef9RTIcxuIlJZsZ8RDTbaCAAf8iQQIWbPv31Ysur7Lqc9jB+T2MwUwlE1psqLn7S7FYuUghFaGxykpz7s34ZucsGvbs03sgNcQRGyjgCmXsknlIQJ+4DiLE9+NwyLtH3kIQgx6PaPJj77m7lwSeYgGMXDd7bFUqlscUOXfPRCO48gVCsWTO5GiUTQZ3FNcAAAAAElFTkSuQmCC) no-repeat !important;
-    background-position: 89px 10px !important;
+    /* background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADoSURBVHgB7ZG/DsFQFIfPuZUIk4QHEBIhDBKDxGbQTcLQhEfoaPFSJAyWpmm8gklMrcFgkdhEpD1OWdBLWvP9htv03HO/3/0DoFAoUFbUdaNFhJVIMwYFADJ5VSYqwqVlzSef9RTIcxuIlJZsZ8RDTbaCAAf8iQQIWbPv31Ysur7Lqc9jB+T2MwUwlE1psqLn7S7FYuUghFaGxykpz7s34ZucsGvbs03sgNcQRGyjgCmXsknlIQJ+4DiLE9+NwyLtH3kIQgx6PaPJj77m7lwSeYgGMXDd7bFUqlscUOXfPRCO48gVCsWTO5GiUTQZ3FNcAAAAAElFTkSuQmCC) no-repeat !important; */
+    background: #fff url('/public/img/newarrow-leftimg.png') no-repeat !important;
+    background-position: 78px 9px !important;
+    background-size: 24px 24px !important;
     outline: none;
 }
 .inner_radio_text{
   padding: 8px 19px 8px 20px;
+}
+.launcpad_newelement img{
+  width: 20px;
+  height: 20px;
 }
 .inner_radio_text .swih {
   position: relative;
@@ -1899,7 +1905,7 @@ color: #00783F;
   margin-top: 20px;
   background: #fdf8ef;
   border-radius: 0px 0px 30px 30px;
-  padding: 13px 19px;
+  padding: 14px 19px;
 }
 .airdrop_mg_4{
   margin-top: 12%;
@@ -1908,7 +1914,7 @@ color: #00783F;
   margin-top: 21px;
   background: #e0e0e0;
   border-radius: 0px 0px 30px 30px;
-  padding: 13px 19px;
+  padding: 14px 19px;
 }
 .Air_arbor_bottom-title-right_bi {
   font-family: 'Gilroy';
@@ -1921,7 +1927,7 @@ color: #00783F;
   margin-top: 21px;
   background: #d3fae7;
   border-radius: 0px 0px 30px 30px;
-  padding: 13px 19px;
+  padding: 14px 19px;
 }
 .Air_arbor_live_bottom-title-right_bi{
   font-family: 'Gilroy';

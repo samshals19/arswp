@@ -74,11 +74,11 @@ export default function Aside() {
               <div className="menu">
                 <ul className="menu-links">
                   <div>
-                    <li className="nav-link ">
+                    <li className="nav-link launcpad_newelement">
                       <a href="#">
                         {/* <!-- <i className='bx bx-home icon' ></i> --> */}
                         {/* <!-- <i className='bx bxs-grid-alt bx-rotate-180 icon' style='color:#a69f9f' ></i> --> */}
-                        <img src="/img/element-3.png" alt="" />
+                        <img src="/img/newelement-3.png" alt="" />
                         {/* <img src="/img/AirdropRIP.png" alt="" /> */}
                         <span
                           className="text nav-test"
@@ -97,7 +97,7 @@ export default function Aside() {
                     <li className="nav-link">
                       <a href="#">
                         {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                        <img src="/img/Icon.png" className="icon" alt="" />
+                        <img src="/img/newIcon.png" className="icon" alt="" />
 
                         <span
                           className="text nav-test"
@@ -136,7 +136,7 @@ export default function Aside() {
                     <li className="nav-link">
                       <a href="#">
                         <img
-                          src="/img/shield-security.png"
+                          src="/img/newshield-security.png"
                           className="icon"
                           alt=""
                         />
@@ -170,7 +170,11 @@ export default function Aside() {
                     <li className="nav-link">
                       <a href="#">
                         {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                        <img src="/img/airplane.png" className="icon" alt="" />
+                        <img
+                          src="/img/newairplane.png"
+                          className="icon"
+                          alt=""
+                        />
 
                         <span
                           className="text nav-test"
@@ -199,7 +203,7 @@ export default function Aside() {
                     <li className="nav-link">
                       <a href="#">
                         {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                        <img src="/img/menu1.png" className="icon" alt="" />
+                        <img src="/img/newmenu1.png" className="icon" alt="" />
 
                         <span
                           className="text nav-test"

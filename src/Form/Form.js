@@ -30,7 +30,7 @@ function Form() {
   };
 
   return (
-    <Link to="/airdropform1">
+    <Link to="/CreateAirdrop">
       <>
         <div className="form">
           <div className="form-container">

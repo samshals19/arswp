@@ -8,7 +8,7 @@ function SignUpInfo({ formData, setFormData }) {
         <div className="menu-left_all">
           <a href="" className="active_form">
             {" "}
-            <span class="dot_green"></span>Lock details
+            <span class="dot_green"></span> Lock details
           </a>
 
           <a href="">Preview</a>

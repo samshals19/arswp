@@ -90,6 +90,7 @@ root.render(
         <Route path="/live/boxpage1" element={<AirdropTypeLive />} />
         <Route path="/ended/boxpage2" element={<AirdropTypeEnd />} />
         <Route path="/CreateAirdrop" element={<Createpageform />} />
+        {/* <Route path="/airdropform1" element={<Createpageform />} /> */}
         <Route path="/Createsale" element={<Createsale />} />
         <Route path="/Createsale/Fairlaunch" element={<Fairlaunch />} />
         <Route path="/Createsale/Standard" element={<Standard />} />
