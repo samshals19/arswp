@@ -15,7 +15,7 @@ export default function Launchpad_create_sale(props) {
 
           <li className="line_moble_ver_img">
             {" "}
-            <img src="/img/Line 2.png" alt="" srcset="" />{" "}
+            <img src="/img/newLine 2.png" alt="" srcset="" />{" "}
           </li>
           <li>
             <a href="#" className="active">

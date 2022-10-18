@@ -97,7 +97,7 @@ export default function LockerLockerAsset5() {
               </div>
               <div className="clear"></div>
               <div className="app6_form_section_button fl-right">
-                <button onClick={() => navigate(`/Createsalelocker/${data}`)}>
+                <button onClick={() => navigate(`/TokenLocker/${data}`)}>
                   Next
                 </button>
               </div>

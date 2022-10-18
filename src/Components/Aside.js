@@ -36,14 +36,14 @@ export default function Aside() {
               <div className="group_all">
                 <div className="image-text">
                   <span className="image">
-                    <img src="/images/logo.png" alt="" />
+                    <img src="/images/newlogo.png" alt="" />
                   </span>
 
                   <div
                     className="text header-text"
                     style={{ display: isOpen ? "block" : "none" }}
                   >
-                    <img src="/images/logo_2.png" className="name" alt="" />
+                    <img src="/images/newlogo_2.png" className="name" alt="" />
                     {/* --> */}
                   </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Aside() {
               style={{ marginLeft: isOpen ? "25%" : "0%" }}
             >
               {/* className="toggle" */}
-              <img src="/images/arrow-left.png" alt="" srcset="" />
+              <img src="/images/newarrow-left.png" alt="" srcset="" />
             </span>
             <span
               onClick={toggle}

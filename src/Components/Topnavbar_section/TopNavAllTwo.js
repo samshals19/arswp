@@ -11,7 +11,7 @@ export default function Poolswipe_nav_sec(props) {
           <li>{props.title}</li>
           <li>
             {" "}
-            <img src="/img/Line 2.png" alt="" srcset="" />{" "}
+            <img src="/img/greyLine 2.png" alt="" srcset="" />{" "}
           </li>
           <li>
             <a href="#" className="activ">

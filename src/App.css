@@ -2877,6 +2877,10 @@ transition: transform .3s;
     padding: 7px 0 0 9px;
     top: 39px;
 }
+.arrow_close img{
+  width: 24px;
+  height: 24px;
+}
 .menu-bar .sidebar_contain_aside a:focus{
   color: #00783F;
 }
@@ -2983,6 +2987,10 @@ letter-spacing: 0.02em;
 
 
 color: #464754;
+}
+.notification_icon img{
+  width: 24px;
+  height: 24px;
 }
 
 .fundmartpbt {
@@ -3230,6 +3238,7 @@ color: #807373;
 .lappadpoolactive{
   border: 1.5px solid #C89211 !important;
 }
+
 .label input[type="radio"]{
   display: none;
  }

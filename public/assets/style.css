@@ -403,8 +403,14 @@ padding-left:0px;}
                 
                 .top-right-nav .button_name{line-height: 23px; position:relative;  cursor: pointer; overflow: hidden;text-overflow: ellipsis;  white-space: nowrap; }
                   
-                .button_name img.icon-001{position: absolute;left: 8.28%;right: 82.44%;top: 26.75%;bottom: 35.03%;}
-                .button_name img.icon-002{position: absolute;right: 12.28%;;left: 82.44%;top: 45.75%;bottom: 35.03%;}
+                .button_name img.icon-001{position: absolute;left: 8.28%;right: 82.44%;top: 26.75%;bottom: 35.03%; width: 24px;height: 24px;}
+                .button_name img.icon-002{position: absolute;
+                    right: 12.28%;
+                    left: 79.44%;
+                    top: 27.75%;
+                    bottom: 35.03%;
+                    width: 24px;
+                    height: 24px;}
                 
                 .max-num .route h3{
                     width: 40px;height: 18px;top: 700px;font-weight: 500;font-size: 14px;

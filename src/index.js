@@ -33,6 +33,7 @@ import LockerHome3pages from "./LockerLockerAsset4";
 
 import Createsalelocker from "./LockerLockerAsset5";
 import LPToken from "./LockerLPToken";
+// import TokenForm from "./LockerLPToken";
 import LPLocker from "./LockerLPLocker";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -105,6 +106,8 @@ root.render(
         {/* <Route path="/Createsalelocker" element={<Createsalelocker />} /> */}
         <Route path="/TokenLocker" element={<Createsalelocker />} />
         <Route path="/TokenLocker/LPToken" element={<LPToken />} />
+        {/* <Route path="/TokenLocker/LPToken" element={<TokenForm />} /> */}
+
         <Route path="/LPLocker" element={<LPLocker />} />
         {/* <Routh path='/popupstandard' element={< />} */}
         {/* <Route path='/Createsalelocker/ ' element={< />}/> */}
