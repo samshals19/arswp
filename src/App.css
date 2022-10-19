@@ -3286,6 +3286,41 @@ color: #807373;
   
   @media only screen and (min-width:768px) and (max-width:979px){
 
+
+    #out_bx_pad_1{
+
+    width: 19% !important;
+    margin-right: 1%;
+
+    }
+    #out_bx_pad_2{
+
+      width: 27% !important;
+  
+    }
+    #out_bx_pad_3{
+
+      width: 27% !important;
+    
+    }
+    #out_bx_pad_4{
+
+      width: 22% !important;
+      float: left !important;
+      
+    }
+    #out_bx_pad_4.inner_option{
+      width: 100% !important;
+      margin: 0px 0 0 4px !important;
+      height: 33px !important;
+    }
+    .outer_box_4 form input {
+      
+     
+      width: 100%;
+      
+  }
+
     .inner_radio_text {
       padding: 8px 19px 8px 20px;
       font-size: 11px;
@@ -3331,6 +3366,9 @@ color: #807373;
   .inner_box1, .inner_box2, .inner_box3 {
     width: 33.3%;
     text-align: center;
+}
+.L_app1_In_box{
+  width: 100%;
 }
   .slider{display:none}
 .form-block{width:100%; margin:0 auto}
