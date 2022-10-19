@@ -363,14 +363,14 @@ button{ cursor: pointer;}
 } 
 .outer_box_4{
   margin: 0;
-  /* width: 38%; */
+  width: 31% ;
 
 }
 
 
 .outer_box_4 form input {
   margin-left: 15px;
-  padding: 8px 196px 8px 20px;
+  padding: 8px 30px 8px 20px;
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 600;
@@ -3258,12 +3258,80 @@ color: #807373;
   display: none;
 }
 
+@media only screen and (min-width:980px) and (max-width:1200px){
+  .inner_radio_text {
+    padding: 8px 19px 8px 20px;
+    font-size: 11px;
+}
+.outer_box_3 .inner_option {
+  font-size: 12px;
+  height: 35px;
+  padding: 8px 15px;}
+  .form-block {margin-left: 24% !important; width: 75% !important;}
+  .outer_box_4 {width: 32% !important;margin-bottom: 15px !important;}
+  .inner_radio_text {padding: 8px 19px 8px 16px !important; font-size: 12px !important;}
+  .slider {width: 227px !important;}
+  .In_box {margin-bottom: 3% !important;margin-right: 1.3% !important; width: 48% !important;}
+  .outer_box_4 {margin-bottom: 15px !important;}
+  .outer_box_1 .inner_box1 {padding: 8px 10px !important;}
+  .inner_box1, .inner_box2, .inner_box3 {font-size: 12px !important;}
+  .inner_box1, .inner_box2, .inner_box3 {padding: 8px 13px !important;}
+  .top-nav {padding: 29px 4px 20px 18px !important;width: 46% !important;}
+  .top-right-nav .button_name { width: 169px !important;}
+  .top-right-nav a {padding: 13px !important ; margin-right: 10px !important;}
+  .outer_box_3 .inner_option{font-size: 12px !important;}
+  .Airdropven_In_box {height: 320px;}
+  }
+  
+  
+  @media only screen and (min-width:768px) and (max-width:979px){
 
+    .inner_radio_text {
+      padding: 8px 19px 8px 20px;
+      font-size: 11px;
+  }
+  .outer_box_3 .inner_option {
+    font-size: 12px;
+    height: 35px;
+    padding: 8px 15px;}
+    .Airdropven_In_box {
+      height: 337px;
+  }
+  
+  .outer_box_1.fl-left{width: 37% !important;}
+  .outer_box_2.fl-left{
+    width: 30.3% !important;
+} 
+.outer_box_3.fl-left{
 
+  width: 30.3%;
+
+}
+.inner_option{
+
+  width: 80%;
+
+}
+
+  .form-block {margin-left: 31% !important; width: 68% !important;}
+  .slider {width: 227px !important;}
+  .In_box {margin-bottom: 3% !important;margin-right: 1.3%!important; width: 48% !important;}
+  .outer_box_4 {margin-bottom: 15px !important; width:100% !important} 
+  .outer_box_1 .inner_box1 {padding: 8px 10px!important;}
+  .inner_box1, .inner_box2, .inner_box3 {font-size: 12px !important;}
+  .inner_box1, .inner_box2, .inner_box3 {padding: 8px 13px !important; }
+  .top-nav {padding: 29px 4px 20px 18px !important;width: 46% !important;}
+  .top-right-nav .button_name { width: 169px !important;}
+  .top-right-nav a {padding: 13px !important;margin-right: 10px !important;}
+  .Airdropven_In_box{width:48% !important}
+  }
 
 /* ---------------------- */
 @media  only screen and (max-width: 767px) {
-
+  .inner_box1, .inner_box2, .inner_box3 {
+    width: 33.3%;
+    text-align: center;
+}
   .slider{display:none}
 .form-block{width:100%; margin:0 auto}
 .outer_box_1 .inner_box1 {padding: 8px 15px ;}
@@ -3377,6 +3445,7 @@ font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
     width: 100%;
   
 }
+
 /* ------------------------Airdroppper------------------------------- */
 .Airdropven_In_box {
   width: 100%;
@@ -3423,7 +3492,7 @@ font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
 #outer_box_2_moble{width: 39%;}
 
 #outer_box_1_moble.fl-left{
-  margin-bottom: 0;width: auto;
+  margin-bottom: 0;width:49%;
 }
 #inn_box1, #inn_box2, #inn_box3 {
   font-family: Gilroy;
@@ -3431,8 +3500,10 @@ font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
   font-style: normal;
   font-weight: 600;
   letter-spacing: .02em;
-  width: auto !important;
   padding: 9px 8px;
+  width: 33% !important;
+  text-align: center;
+
 }
 #outer_box_2_moble#inn_box1 {
   padding: 9px 15px;

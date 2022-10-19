@@ -1,5 +1,5 @@
 import "./App.css";
-// import LaunchpadPools1 from "./LaunchpadPools1ALive";
+import LaunchpadPools1 from "./LaunchpadPools1ALive";
 // import LaunchpadPools1 from "./ModalPOPUP";
 // import LaunchpadPools1 from "./AirdropperAirdrop8";
 // import LaunchpadPools1 from "./AirdropperAirdrop9";
@@ -31,7 +31,7 @@ import LockerLockerAsset3 from "./LockerLockerAsset3";
 // import LaunchpadPools1 from "./LockerLockerAsset3";
 import LockerLockerAsset4 from "./LockerLockerAsset4";
 // import LaunchpadPools1 from "./LockerLockerAsset4";
-import LaunchpadPools1 from "./LockerLockerAsset5";
+// import LaunchpadPools1 from "./LockerLockerAsset5";
 import AirdropperAirdrop3 from "./AirdropperAirdrop3";
 import AirdropperAirdrop2 from "./AirdropperAirdrop2";
 import AirdropperAirdrop1 from "./AirdropperAirdrop1";

@@ -34,16 +34,21 @@ export default function LocLocAsstLiq() {
 
         {/* content */}
         <div className="fl-container">
-          <Icon_both />
-          <div className="outer_box_1 fl-left">
-            <Token_liqd />
-          </div>
-          <div className="outer_box_2 fl-left ">
-            <MyLocks />
+          <div id="out_bx_pad_1">
+            <Icon_both />
           </div>
 
-          <Sort_by />
-          <div className="outer_box_4 fl-right">
+          <div className="outer_box_1 fl-left" id="out_bx_pad_2">
+            <Token_liqd />
+          </div>
+          <div className="outer_box_2 fl-left " id="out_bx_pad_3">
+            <MyLocks />
+          </div>
+          <div id="out_bx_pad_4">
+            <Sort_by />
+          </div>
+
+          <div className="outer_box_4 fl-right" id="out_bx_pad_4">
             <Search_sec />
           </div>
         </div>

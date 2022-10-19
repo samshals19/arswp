@@ -407,10 +407,11 @@ padding-left:0px;}
                 .button_name img.icon-002{position: absolute;
                     right: 12.28%;
                     left: 79.44%;
-                    top: 27.75%;
+                    top: 28.75%;
                     bottom: 35.03%;
                     width: 24px;
-                    height: 24px;}
+                    height: auto;
+                }
                 
                 .max-num .route h3{
                     width: 40px;height: 18px;top: 700px;font-weight: 500;font-size: 14px;
