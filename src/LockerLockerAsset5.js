@@ -8,7 +8,7 @@ import React from "react";
 
 export default function LockerLockerAsset5() {
   const navigate = useNavigate();
-  const [data, setData] = useState("LPToken");
+  const [data, setData] = useState("Standard");
   const handleChange = (value) => {
     setData(value);
   };
@@ -42,7 +42,7 @@ export default function LockerLockerAsset5() {
                     className="fl-right"
                     id="Standard"
                     name="Presale"
-                    value="LPToken"
+                    value="Standard"
                     onChange={(e) => {
                       handleChange(e.target.value);
                     }}
@@ -59,7 +59,7 @@ export default function LockerLockerAsset5() {
                     className="fl-right"
                     id="Fairlaunch"
                     name="Presale"
-                    value="LPToken"
+                    value="Standard"
                     onChange={(e) => {
                       handleChange(e.target.value);
                     }}

@@ -106,7 +106,8 @@ root.render(
         />
         {/* <Route path="/Createsalelocker" element={<Createsalelocker />} /> */}
         <Route path="/TokenLocker" element={<Createsalelocker />} />
-        <Route path="/TokenLocker/LPToken" element={<LPToken />} />
+        {/* <Route path="/TokenLocker/LPToken" element={<LPToken />} /> */}
+        <Route path="/TokenLocker/Standard" element={<LPToken />} />
         {/* <Route path="/TokenLocker/LPToken" element={<TokenForm />} /> */}
 
         <Route path="/LPLocker" element={<LPLocker />} />

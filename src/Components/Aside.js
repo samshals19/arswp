@@ -8,6 +8,24 @@ export default function Aside() {
     setFlag(!flag);
     setIsOpen(!isOpen);
   };
+  const [myStyle, setMyStyle] = useState({
+    color: "white",
+    backgroundColor: "black",
+  });
+  const [darkMode, setDarkMode] = useState(false);
+  const toggleStyle = () => {
+    if (myStyle.color == "white") {
+      setMyStyle({
+        color: "black",
+        backgroundColor: "white",
+      });
+    } else {
+      setMyStyle({
+        color: "white",
+        backgroundColor: "black",
+      });
+    }
+  };
   const [open1, setOpen1] = useState(false);
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
@@ -23,7 +41,7 @@ export default function Aside() {
 
   // let user = [(newlink = "/launchpad")];
   return (
-    <>
+    <div>
       <div className={flag ? "main" : null}>
         <nav
           className="slider"
@@ -31,7 +49,7 @@ export default function Aside() {
             width: isOpen ? "270px" : "80px",
           }}
         >
-          <header>
+          <header style={toggleStyle}>
             <Link to="/LaunchpadPool/pools/Live">
               <div className="group_all">
                 <div className="image-text">
@@ -232,9 +250,28 @@ export default function Aside() {
                 </div>
                 {/* <!-- <span class="mode-text text">Dark Mode</span> --> */}
 
-                <div class="toggle-switch">
+                <div class="toggle-switch" onClick={toggleStyle}>
                   <span class="switch"></span>
                 </div>
+                {/* <div className={darkMode ? "dark-mode" : "light-mode"}>
+                  <div className="container">
+                    <span style={{ color: darkMode ? "grey" : "yellow" }}>
+                      ☀︎
+                    </span>
+                    <div className="switch-checkbox">
+                      <label className="switch">
+                        <input
+                          type="checkbox"
+                          onChange={() => setDarkMode(!darkMode)}
+                        />
+                        <span className="slider round"> </span>
+                      </label>
+                    </div>
+                    <span style={{ color: darkMode ? "#c96dfd" : "grey" }}>
+                      ☽
+                    </span>
+                  </div>
+                </div> */}
               </li>
               <ul
                 className="menu-links"
@@ -281,6 +318,6 @@ export default function Aside() {
           </div>
         </nav>
       </div>
-    </>
+    </div>
   );
 }
